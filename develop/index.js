@@ -5,7 +5,16 @@ const path = require("path");
 const generateMarkdown = requie("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
-
+    {
+        type: "input",
+        name: "github",
+        message: "what is your github username?"
+    },
+    {
+        type: "input",
+        name: "email",
+        message: "what is your email?"
+    },
     {
       type: "input",
     name: "title",
@@ -41,7 +50,7 @@ const questions = [
     },
     {
         type: "input",
-        name: "contributor",
+        name: "contributors",
         message: "Who are the contributors of this repo?"  
     },
 ];
