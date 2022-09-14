@@ -1,13 +1,25 @@
 {
-  "name": "static-site",
+  "name": "readme-generator",
   "version": "1.0.0",
-  "description": "",
+  "description": "A tool to create README.md",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/connorkelly96/Professional-README-Generator.git"
+  },
+  "keywords": [
+    "readme",
+    "generator"
+  ],
+  "author": "Connor Kelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/connorkelly96/Professional-README-generator/issues"
+  },
+  "homepage": "https://github.com/connorkelly96/Professional-README-generator#readme",
   "dependencies": {
     "inquirer": "^8.2.4"
   }
