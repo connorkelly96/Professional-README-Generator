@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = requie("./utils/generateMarkdown.js");
+const generateMarkdown = requie("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -37,10 +37,12 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
     inquirer    
         .prompt(questions)
         .then(answers => {
+            console.log("Generating answers now...");
+            writeToFile("README.md", generateMarkdown({...inquirerAnswers}));
             //do stuff with the answers
             console.log(answers)
 
@@ -48,5 +50,6 @@ function init() {}
             //TODO - build a string that uses our answers to generate some markdown and write that to 
             //our file as the 'data' parameter. (replace the test values below)
         });
+    };
 // Function call to initialize app
 init();
