@@ -1,7 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
-const generateMarkdown = requie("./utils/generateMarkdown");
+const generateMarkdown = requie("./utils/generateMarkdown.js");
 // TODO: Create an array of questions for user input
 const questions = [
     {
