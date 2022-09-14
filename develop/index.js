@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 const fs = require('fs');
 const inquirer = require('inquirer');
+const generateMarkdown = requie("./utils/generateMarkdown");
 // TODO: Create an array of questions for user input
 const questions = [
     {
@@ -12,6 +13,21 @@ const questions = [
         type:'input',
         name: 'description',
         message: 'Describe your project.'
+    },
+    {
+        type:'input',
+        name:'Table of Contents',
+        message:'What do you want to put in your Table of Contents?'
+    },
+    {
+        type:'input',
+        name:'installation',
+        message:'What are the steps required to install your project?'
+    },
+    {
+        type:'input',
+        name:'usage',
+        message:'Provide onstructions on how to use your project.'
     }
 ];
 
