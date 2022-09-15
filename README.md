@@ -1,52 +1,33 @@
-# s
-  ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+# README.md Generator
 
-## Description 📝
+### Github : https://github.com/connorkelly96/Professional-README--generator
 
-s
-
-
-## Table of Contents 🗒
-
-* [Insttallations](#dependencies)
-
-* [Usage](#usage)
-
-
-* [License](#license)
-
-
-* [Contributors](#contributors)
-
-* [Test](#test)
-
-
-##  Insttallations (Dependencies) 💻
-
-To install dependencies, run these commands:
-
+## Description
+A Node.js based tool where users can use to generate read me for their repo projects.
+## User Story
 ```
-npm i
+- AS A developer
+- I WANT a README generator
+- SO THAT can quickly create a professional README for a new project
 ```
-
 ## Usage
+- This tool will allow user to create a README.md
+- Users will be asked to enter their Github username
+- Users will be asked to enter their email
+- Users need to provide the title of the project
+- Users can describe the project
+- Users will need to provide license if there's any
+- Users will be asked if there's any dependencies
+- Users will be asked if there's a test to run
+- Users need to provide the usage of the project
+- Last but not least, list the contributors
 
+## Screenshots
 
-
-## License
-
-This project is licensed by undefined.
-
-## Contributors
-
-
-contact me @ 
-
-
-## Tests 🧪
-
-To run tests, run these commands:
-
-```
-npm test
-```
+## Technologies Use
+<p><a href="https://nodejs.org/">Node.js</a></p>
+<p><a href="https://www.npmjs.com/">NPM</a></p>
+<p><a href="https://www.npmjs.com/package/inquirer">Inquirer.js</a></p>
+## Contributor:
+Connor Kelly 
+- - -

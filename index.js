@@ -64,7 +64,7 @@ function writeToFile(fileName, data) {
 function init() {
     inquirer    
         .prompt(questions)
-        .then(answers => {
+        .then(inquirerAnswers => {
             console.log("Generating answers now...");
             writeToFile("./dist/README.md", generateMarkdown({...inquirerAnswers }));
             //do stuff with the answers
