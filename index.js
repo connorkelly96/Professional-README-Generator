@@ -29,7 +29,7 @@ const questions = [
         type: "input",
         name: "license",
         message: "What license does your project have?",
-        choices: ["APACHE2.0", "Boost1.0", "GPL3.0", "BSD2" ,"BSD3", "None"]
+        choices: ["APACHE2.0", "Boost1.0", "GPL3.0", "BSD2" ,"BSD3", "MIT", "None"]
     },
     {
         type: "input",
