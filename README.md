@@ -23,6 +23,8 @@ A Node.js based tool where users can use to generate read me for their repo proj
 - Last but not least, list the contributors
 
 ## Screenshots
+![image](https://user-images.githubusercontent.com/108823822/190318193-5562f88c-f4eb-4984-b567-aac8e19d3c2d.png)
+
 
 ## Technologies Use
 <p><a href="https://nodejs.org/">Node.js</a></p>
